@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contus</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oxanium:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <img class="background" src="neon.jpg" alt="">
+        <div class="instructions">
+
+            <h2 class="instructionsTitle">How much should your bodyguard weigh?</h2>
+        </div>
+        <form id="orderYourBodyguard" class="container">
+            <!--STEG 1-->
+            <div id="step1" class="step">
+                <div id="card125" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/125.webp" alt="">
+                        <div class="text-overlay">
+                            <p class="title">Flyweight</p>
+                            <p id="subtitleWeight" class="subtitle">125lbs</p>
+                            <p id="price125" class="price">$3000</p>
+                            <div class="description">
+                                <p>Like hauling a stack of microwaves—light enough to toss around, but you wouldn’t want
+                                    to get hit by it!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="card145" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/145.webp" alt="">
+                        <div class="text-overlay">
+                            <p class="title">Featherweight</p>
+                            <p id="subtitleWeight" class="subtitle">145lbs</p>
+                            <p id="price145" class="price">$5199</p>
+                            <div class="description">
+                                <p>Roughly the weight of a full bathtub... perfect if you like your fighters squeaky
+                                    clean.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="card155" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/155.jpeg" alt="">
+                        <div class="text-overlay">
+                            <p class="title">Lightweight</p>
+                            <p id="subtitleWeight" class="subtitle">155lbs</p>
+                            <p id="price155" class="price">$7259</p>
+                            <div class="description">
+                                <p>About as heavy as a small fridge stocked with snacks. Cool on the outside, but packed
+                                    with hidden power.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="card185" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/185.webp" alt="">
+                        <div class="text-overlay">
+                            <p class="title">Middleweight</p>
+                            <p id="subtitleWeight" class="subtitle">185lbs</p>
+                            <p id="price185" class="price">$9499</p>
+                            <div class="description">
+                                <p>Imagine taking on a washing machine mid-spin cycle... solid, relentless, and probably
+                                    won’t budge.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="card205" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/205.webp" alt="">
+                        <div class="text-overlay">
+                            <p class="title">Light heavyweight</p>
+                            <p id="subtitleWeight" class="subtitle">205lbs</p>
+                            <p id="price205" class="price">$11999</p>
+                            <div class="description">
+                                <p>Like lifting a hot tub, no water needed—it’s heavy, sturdy, and will not move if it
+                                    doesn’t want to.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="card265" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/265.webp" alt="">
+                        <div class="text-overlay">
+                            <p class="title">Heavyweight</p>
+                            <p id="subtitleWeight" class="subtitle">265lbs</p>
+                            <p id="price265" class="price">$24799</p>
+                            <div class="description">
+                                <p>As hefty as a grand piano—smooth moves, but when it drops, it drops HARD.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="PreNextButtons">
+                <button type="button" id="nextStep2">Next</button>
+            </div>
+
+            <!--STEG 2-->
+            <div id="step2" class="step">
+                <div id="cardConnor" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/connor.png" alt="">
+                        <div class="text-overlay">
+                            <p id="titleStyle" class="title">Connor McGregor</p>
+                            <p class="subtitle">Top Tier Striking</p>
+                            <p id="priceConnor" class="price">$49499</p>
+                            <div class="description">
+                                <p>Strength: 4/10</p>
+                                <p>Speed: 3/10</p>
+                                <p>Stamina: 7/10</p>
+                                <p>Loyalty: 1/10</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/vegeta.png" alt="">
+                        <div class="text-overlay">
+                            <p id="titleStyle" class="title">Vegeta</p>
+                            <p class="subtitle">Saiyan influence</p>
+                            <p id="priceVegeta" class="price">$549900</p>
+                            <div class="description">
+                                <p>Strength: 10/10</p>
+                                <p>Speed: 9/10</p>
+                                <p>Stamina: 10/10</p>
+                                <p>Loyalty: 3/10</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/emanuel.jpeg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleStyle" class="title">Jan Emanuel</p>
+                            <p class="subtitle">Gottsunda Style</p>
+                            <p id="priceEmanuel" class="price">$200</p>
+                            <div class="description">
+                                <p>Strength: 5/10</p>
+                                <p>Speed: 2/10</p>
+                                <p>Stamina: 2/10</p>
+                                <p>Loyalty: 5/10</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/songoku.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleStyle" class="title">Son Goku</p>
+                            <p class="subtitle">Ultimate Warrior</p>
+                            <p id="priceSongoku" class="price">$1000000</p>
+                            <div class="description">
+                                <p>Strength: 10/10</p>
+                                <p>Speed: 10/10</p>
+                                <p>Stamina: 10/10</p>
+                                <p>Loyalty: 10/10</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/jonjones.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleStyle" class="title">Jon Jones</p>
+                            <p class="subtitle">Bones...Shattered</p>
+                            <p id="priceJonjones" class="price">$57499</p>
+                            <div class="description">
+                                <p>Strength: 6/10</p>
+                                <p>Speed: 6/10</p>
+                                <p>Stamina: 6/10</p>
+                                <p>Loyalty: 4/10</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/khabib.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleStyle" class="title">Khabib Nurmagomedov</p>
+                            <p class="subtitle">Smesh</p>
+                            <p id="priceKhabib" class="price">$59499</p>
+                            <div class="description">
+                                <p>Strength: 5/10</p>
+                                <p>Speed: 6/10</p>
+                                <p>Stamina: 6/10</p>
+                                <p>Loyalty: 7/10</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="break"></div>
+                <div class="PreNextButtons">
+                    <button type="button" class="restart">Restart Order</button>
+                    <button type="button" id="nextStep3">Next</button>
+                </div>
+            </div>
+
+
+            <!--STEG 3-->
+            <div id="step3" class="step">
+
+                <div id="cardConnor" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/danielcraig.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleCharisma" class="title">James Bond</p>
+                            <p class="subtitle">Martini magician</p>
+                            <p id="priceJamesBond" class="price">$4999</p>
+                            <div class="description">
+                                <p>Can make a villain rethink their career choice while sipping martinis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/beetlejuice.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleCharisma" class="title">Beetle juice</p>
+                            <p class="subtitle">Ghostly goofball</p>
+                            <p id="priceBeetle" class="price">$699000</p>
+                            <div class="description">
+                                <p>The only guy who could charm a scarecrow into doing the Macarena—just don’t ask for
+                                    directions!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/tobey.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleCharisma" class="title">Spiderman</p>
+                            <p class="subtitle">Sticky situation</p>
+                            <p id="priceSpiderman" class="price">$2000</p>
+                            <div class="description">
+                                <p>Awkward charm that makes saving the world feel like asking someone to dance.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/batman.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleCharisma" class="title">Batman</p>
+                            <p class="subtitle">Brooding billionaire</p>
+                            <p id="priceBatman" class="price">$49000</p>
+                            <div class="description">
+                                <p>The brooding type whose stare could make even the Joker question his outfit.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/superman.webp" alt="">
+                        <div class="text-overlay">
+                            <p id="titleCharisma" class="title">Superman</p>
+                            <p class="subtitle">Cape enthusiast</p>
+                            <p id="priceSuperman" class="price">$87000</p>
+                            <div class="description">
+                                <p>Charisma so strong it could lift your grandma off her feet—literally.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/popsmoke.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleCharisma" class="title">Pop Smoke</p>
+                            <p class="subtitle">Hype generator</p>
+                            <p id="pricePopsmoke" class="price">$10000</p>
+                            <div class="description">
+                                <p>A booming bass line of charisma that makes everyone feel cooler just being near him.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="break"></div>
+                <div class="PreNextButtons">
+                    <button type="button" class="restart">Restart Order</button>
+                    <button type="button" id="nextStep4">Next</button>
+                </div>
+            </div>
+
+
+            <!--STEG 4-->
+            <div id="step4" class="step">
+                <div id="nikoBellic" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/niko.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleCarry" class="title">Niko Bellic</p>
+                            <p class="subtitle">Max guns carry: ∞</p>
+                            <p id="priceNiko" class="price">$159000</p>
+                            <div class="description">
+                                <p>Can carry unlimited weapons, just like he’s collecting stamps—only his are a little
+                                    more explosive!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="makarov" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/makarov.webp" alt="">
+                        <div class="text-overlay">
+                            <p id="titleCarry" class="title">Makarov</p>
+                            <p class="subtitle">Max guns carry: 3</p>
+                            <p id="priceMakarov" class="price">$67000</p>
+                            <div class="description">
+                                <p>Could fit a small army in his pockets; his pants are practically a black market!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="priceCOD" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/price.avif" alt="">
+                        <div class=" text-overlay">
+                            <p id="titleCarry" class="title">Captain Price</p>
+                            <p class="subtitle">Max guns carry: 3</p>
+                            <p id="pricePrice" class="price">$5000</p>
+                            <div class="description">
+                                <p>Carries enough gear to take down a small country, but still can’t find a matching
+                                    sock!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="s1mple" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/simple.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleCarry" class="title">S1mple</p>
+                            <p class="subtitle">Max guns carry: 2</p>
+                            <p id="priceS1mple" class="price">$55499</p>
+                            <div class="description">
+                                <p>Holds the record for carrying an entire team—his mouse must be on a weightlifting
+                                    regimen!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="arthurMorgan" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/reddead.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleCarry" class="title">Arthur Morgan</p>
+                            <p class="subtitle">Max guns carry: 3</p>
+                            <p id="priceArthurMorgan" class="price">$149000</p>
+                            <div class="description">
+                                <p>Can haul a bison on one shoulder and still manage to give you a backstory on it!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="lester" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/lester.webp" alt="">
+                        <div class="text-overlay">
+                            <p id="titleCarry" class="title">Lester</p>
+                            <p class="subtitle">Max guns carry: 1</p>
+                            <p id="priceLester" class="price">$200</p>
+                            <div class="description">
+                                <p>Carries a whole heist in his brain; he’s got plans that could make a Swiss Army knife
+                                    jealous!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="break"></div>
+                <div class="PreNextButtons">
+                    <button type="button" class="restart">Restart Order</button>
+                    <button type="button" id="nextStep5">Next</button>
+                </div>
+            </div>
+
+            </div>
+
+            <!--STEG 5-->
+            <div id="step5" class="step">
+                <div id="cardConnor" class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/88.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleGuns" class="title">Pistol 88</p>
+                            <p class="subtitle">9x19 mm</p>
+                            <p id="pricePistol88" class="price">$600</p>
+                            <div class="description">
+                                <p>Designation: Glock 88</p>
+                                <p>Firerange: 50 m</p>
+                                <p>Weight: 900 g</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/ksp58.webp" alt="">
+                        <div class="text-overlay">
+                            <p id="titleGuns" class="title">Kulspruta 58</p>
+                            <p class="subtitle">7,62 x 51 mm</p>
+                            <p id="priceKulspruta58" class="price">$1500</p>
+                            <div class="description">
+                                <p>Rate of fire: 650 /min</p>
+                                <p>Fire distance: 600 m</p>
+                                <p>Weight: 11,5 kg</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/ag90.jpg" alt="">
+                        <div class=" text-overlay">
+                            <p id="titleGuns" class="title">Automatgevär 90C</p>
+                            <p class="subtitle">.50 BMG</p>
+                            <p id="priceAG90" class="price">$3900</p>
+                            <div class="description">
+                                <p>Firerange: 1 300m</p>
+                                <p>Weight: 15 kg</p>
+                                <p>Length: 1500 mm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/grg.jpg" alt="">
+                        <div class=" text-overlay">
+                            <p id="titleGuns" class="title">Granatgevär 48</p>
+                            <p class="subtitle">8,4 cm</p>
+                            <p id="priceGRG" class="price">$1900</p>
+                            <div class="description">
+                                <p>Designation: Carl Gustaf</p>
+                                <p>Weight: 14 kg</p>
+                                <p>Velocity 250 m/s</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/granat50.png" alt="">
+                        <div class=" text-overlay">
+                            <p id="titleGuns" class="title">Spränghandgranat56</p>
+                            <p class="subtitle">Pentyl: 95g</p>
+                            <p id="priceGranat" class="price">$10</p>
+                            <div class="description">
+                                <p>Order 5 or more and get 50% off on all grenades. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="group">
+                        <img class="card-image" src="/images/ak5.jpg" alt="">
+                        <div class="text-overlay">
+                            <p id="titleGuns" class="title">Automatkarbin 5C</p>
+                            <p class="subtitle">5,56x45mm</p>
+                            <p id="priceAK5" class="price">$2200</p>
+                            <div class="description">
+                                <p>Firerange 400 m</p>
+                                <p>Weight: ca 5 kg</p>
+                                <p>Length: ca 850mm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="break"></div>
+                <div class="PreNextButtons"></div>
+                <button type="button" class="restart">Restart Order</button>
+                <button type="button" class="summary">Next</button>
+            </div>
+        </form>
+
+
+        <h2 class="selectedEquipmentTitle">Selected Equipment</h2>
+        <div>
+            <div id="totalPriceDisplay" class="totalPriceDisplay">Hourly Rate: $0</div>
+            <div class="selectedEquipment"></div>
+            <div class="equipmentBox"></div>
+        </div>
+
+        <div class="summaryContainer">
+            <div class="summaryTexts">
+                <div class="summaryText"></div>
+            </div>
+            <div class="daysOrderedBox">
+                <label class="days" for="days">Days needed:</label>
+                <input type="number" id="daysOrdered" min="1" value="0" />
+            </div>
+            <div class="completeOrderButton">
+                <div id="totalPriceDisplayEnd" class="totalPriceEnd"></div>
+                <div class="discount"></div>
+                <button class="completeOrder">Complete Order</button>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+
+</html>
